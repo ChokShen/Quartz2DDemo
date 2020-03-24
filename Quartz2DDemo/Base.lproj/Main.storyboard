@@ -40,11 +40,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lC-eO-9BH">
-                                <rect key="frame" x="307" y="227" width="46" height="30"/>
+                                <rect key="frame" x="49" y="278" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="画图片"/>
                                 <connections>
                                     <action selector="drawImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lMa-2P-oU4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5L-pN-5IS">
+                                <rect key="frame" x="129" y="278" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="裁剪图片"/>
+                                <connections>
+                                    <action selector="editImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJs-Ka-Dtf"/>
                                 </connections>
                             </button>
                         </subviews>

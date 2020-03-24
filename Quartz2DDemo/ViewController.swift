@@ -32,5 +32,8 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(DrawImageViewController(), animated: true)
     }
     
+    @IBAction func editImage(_ sender: Any) {
+        self.navigationController?.pushViewController(EditImageViewController(), animated: true)
+    }
 }
 

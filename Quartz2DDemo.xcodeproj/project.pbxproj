@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498AECD724299D6200E0B429 /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AECD624299D6200E0B429 /* EditImageViewController.swift */; };
+		498AECD924299DAB00E0B429 /* EditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AECD824299DAB00E0B429 /* EditImageView.swift */; };
 		49CE3C6624245BBB007F59A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE3C6524245BBB007F59A1 /* AppDelegate.swift */; };
 		49CE3C6824245BBB007F59A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE3C6724245BBB007F59A1 /* SceneDelegate.swift */; };
 		49CE3C6A24245BBB007F59A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE3C6924245BBB007F59A1 /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498AECD624299D6200E0B429 /* EditImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
+		498AECD824299DAB00E0B429 /* EditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageView.swift; sourceTree = "<group>"; };
 		49CE3C6224245BBB007F59A1 /* Quartz2DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CE3C6524245BBB007F59A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49CE3C6724245BBB007F59A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498AECD524299D4400E0B429 /* EditImage */ = {
+			isa = PBXGroup;
+			children = (
+				498AECD624299D6200E0B429 /* EditImageViewController.swift */,
+				498AECD824299DAB00E0B429 /* EditImageView.swift */,
+			);
+			path = EditImage;
+			sourceTree = "<group>";
+		};
 		49CE3C5924245BBB007F59A1 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		49CE3C6424245BBB007F59A1 /* Quartz2DDemo */ = {
 			isa = PBXGroup;
 			children = (
+				498AECD524299D4400E0B429 /* EditImage */,
 				49CE3CA62424BE46007F59A1 /* DrawImage */,
 				49CE3CA12424AC63007F59A1 /* Transform */,
 				49CE3C9B242467EE007F59A1 /* DrawShape */,
@@ -315,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498AECD924299DAB00E0B429 /* EditImageView.swift in Sources */,
 				49CE3C9A24246769007F59A1 /* DrawShapeViewController.swift in Sources */,
 				49CE3C6A24245BBB007F59A1 /* ViewController.swift in Sources */,
 				49CE3C6624245BBB007F59A1 /* AppDelegate.swift in Sources */,
@@ -323,6 +338,7 @@
 				49CE3CA52424AD40007F59A1 /* TransformView.swift in Sources */,
 				49CE3C6824245BBB007F59A1 /* SceneDelegate.swift in Sources */,
 				49CE3C9E24246814007F59A1 /* DrawTextViewController.swift in Sources */,
+				498AECD724299D6200E0B429 /* EditImageViewController.swift in Sources */,
 				49CE3CA82424BF61007F59A1 /* DrawImageView.swift in Sources */,
 				49CE3C98242464E8007F59A1 /* DrawTextView.swift in Sources */,
 				49CE3CAA2424BF77007F59A1 /* DrawImageViewController.swift in Sources */,
